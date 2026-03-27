@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    @apply bg-white text-neutral-950;
+  }
+
+  html,
+  body {
+    @apply min-h-screen min-w-[320px] m-0;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+}
+
+.DitheredLogo_wrapper__xvRcN {
+  width: min(56vw, 24rem);
+  height: min(56vw, 24rem);
+}
+
+.DitheredLogo_canvas__spFS8 {
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion) {
+  *,
+  ::before,
+  ::after {
+    animation: none !important;
+  }
+}
